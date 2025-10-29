@@ -1,0 +1,107 @@
+/* reset.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.4;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Tarefas concluidas
+.done {
+  text-decoration: line-through;
+  color: #888;
+} */
+
+#todo-list {
+  list-style: none; /* tira os marcadores */
+  padding: 0;
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+#todo-list li {
+  padding: 8px 12px;
+  margin: 6px 0;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#todo-list button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#todo-list button:hover {
+  background-color: #e60000;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background-color: #ffff99; /* amarelo claro */
+  font-weight: bold;
+  padding: 5px 10px;
+  border-left: 4px solid #f1c40f;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.btn-sm {
+  width: 50%;
+  margin: auto;
+}
+
+.btn-edit {
+  background-color: #4da6ff !important;
+  border-color: #4da6ff !important;
+  color: white !important;
+}
+
+.btn-edit:hover {
+  background-color: #3399ff !important;
+  border-color: #3399ff !important;
+}
