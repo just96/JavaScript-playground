@@ -1,31 +1,44 @@
-Vanilla JavaScript TODO List
+## TODO List App 📝
 
-A simple TODO list web app built with plain JavaScript, HTML, and CSS. It allows users to add, edit, delete, and view tasks with timestamps. All tasks are saved in localStorage for persistence.
+A simple **web-based TODO List** built with **vanilla JavaScript** that allows you to manage tasks, edit them, and track their creation time. Tasks are saved in **localStorage**, so they persist across page reloads.
 
-Features
+## Features ✨
 
--Add tasks to the TODO list.
+➕ **Add new tasks**
 
--Edit existing tasks.
+✏️ **Edit existing tasks**
 
--Delete individual tasks.
+❌ **Delete individual tasks**
 
--Clear the entire list.
+🗑️ **Clear all tasks**
 
--View the creation date and time of each task.
+⏰ **Real-time clock display**
 
--Real-time clock display.
+📅 **Task creation timestamps**
 
--Persistent storage using localStorage.
+⚠️ **Alerts for duplicates, empty tasks, or cleared list**
 
--Alerts for empty or duplicate tasks.
+💾 **Persistent storage with localStorage**
 
-How It Works
+## Technologies 🛠️
 
--Tasks are stored in two arrays: one for the task text, another for creation dates.
+**HTML / CSS** (Bootstrap 5)
 
--Data is persisted in localStorage.
+**JavaScript** (vanilla)
 
--The list updates dynamically whenever a task is added, edited, or deleted.
+**Bootstrap**
 
--Alerts guide the user for empty input, duplicates, or actions like clearing the list.
+## Concepts Applied 📚
+
+**DOM Manipulation** – dynamically update the task list and buttons
+
+**Event Listeners** – handle user interactions like clicks and keypresses
+
+**LocalStorage** – store tasks and timestamps to persist data
+
+**Date & Time Formatting** – display creation dates in readable format
+
+**Alert Handling** – show notifications for invalid actions
+
+## Usage 🚀
+Open **index.html** in browser
